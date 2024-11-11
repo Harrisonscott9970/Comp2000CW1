@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F5F5F5"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:ignore="UselessParent">
+
+        <Button
+            android:id="@+id/logoutButton"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_gravity="start"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/roundstyle"
+            android:backgroundTint="#D04541"
+            android:padding="7dp"
+            android:text="Log Out"
+            android:textColor="@android:color/white"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:background="#D3D3D3"
+            android:padding="6dp"
+            android:text="@string/employee_profile"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:orientation="horizontal"
+                tools:ignore="TextSizeCheck">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#D3D3D3"
+                    android:padding="8dp"
+                    android:text="@string/name"
+                    android:textColor="#000000" />
+
+                <Button
+                    android:id="@+id/btnUpdateName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#A5D6A7"
+                    android:text="@string/update"
+                    android:textColor="#ffffff"
+                    tools:ignore="DuplicateSpeakableTextCheck,TextContrastCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:orientation="horizontal"
+                tools:ignore="TextSizeCheck">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#D3D3D3"
+                    android:padding="8dp"
+                    android:text="@string/job"
+                    android:textColor="#000000" />
+
+                <Button
+                    android:id="@+id/btnUpdateJob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#A5D6A7"
+                    android:text="Update"
+                    android:textColor="#FFFFFF"
+                    tools:ignore="HardcodedText,TextContrastCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:orientation="horizontal"
+                tools:ignore="TextSizeCheck">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#D3D3D3"
+                    android:padding="8dp"
+                    android:text="@string/department"
+                    android:textColor="#000000" />
+
+                <Button
+                    android:id="@+id/btnUpdateDepartment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#A5D6A7"
+                    android:text="Update"
+                    android:textColor="#FFFFFF"
+                    tools:ignore="HardcodedText,TextContrastCheck" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/contact_information" />
+
+            <LinearLayout
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:orientation="horizontal"
+                tools:ignore="TextSizeCheck">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#D3D3D3"
+                    android:padding="8dp"
+                    android:text="@string/phone_number"
+                    android:textColor="#000000" />
+
+                <Button
+                    android:id="@+id/btnUpdatePhoneNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#A5D6A7"
+                    android:text="Update"
+                    android:textColor="#FFFFFF"
+                    tools:ignore="HardcodedText,TextContrastCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:orientation="horizontal"
+                tools:ignore="TextSizeCheck">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#D3D3D3"
+                    android:padding="8dp"
+                    android:text="@string/email"
+                    android:textColor="#000000" />
+
+                <Button
+                    android:id="@+id/btnUpdateEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#A5D6A7"
+                    android:text="Update"
+                    android:textColor="#FFFFFF"
+                    tools:ignore="HardcodedText,TextContrastCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:orientation="horizontal"
+                tools:ignore="TextSizeCheck">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#D3D3D3"
+                    android:padding="8dp"
+                    android:text="@string/address"
+                    android:textColor="#000000" />
+
+                <Button
+                    android:id="@+id/btnUpdateAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#A5D6A7"
+                    android:text="Update"
+                    android:textColor="#FFFFFF"
+                    tools:ignore="HardcodedText,TextContrastCheck" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#455A64"
+            android:text="@string/save"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnConfirm"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#263238"
+            android:text="@string/confirm"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12mm"
+        android:padding="16dp"
+        android:text="@string/employee_management_app"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        tools:ignore="InOrMmUsage" />
+
+    <ImageView
+        android:layout_width="259dp"
+        android:layout_height="273dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="12mm"
+        android:importantForAccessibility="no"
+        android:src="@drawable/frontpage"
+        tools:ignore="InOrMmUsage" />
+
+    <Button
+        android:id="@+id/adminLoginButton"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-16dp"
+        android:background="#1B3A4B"
+        android:text="@string/admin_login"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/employeeLoginButton"
+        android:layout_width="229dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="#1B3A4B"
+        android:text="@string/employee_login"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

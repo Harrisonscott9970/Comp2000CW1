@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_gravity="start"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#D04541"
+        android:padding="7dp"
+        android:text="Log Out"
+        android:textColor="@android:color/white"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="2in"
+        android:layout_height="53dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:background="#E0E0E0"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@string/confirmation_screen"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        tools:ignore="InOrMmUsage" />
+
+    <TextView
+        android:id="@+id/txtApprovalMessage"
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="12dp"
+        android:text="@string/your_leave_request_has_been_approved"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        tools:ignore="TextSizeCheck" />
+
+    <Button
+        android:id="@+id/btnCalendar"
+        android:layout_width="306dp"
+        android:layout_height="257dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#87CEFA"
+        android:text="@string/calendar"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnGoBack"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:background="#D3D3D3"
+        android:text="@string/go_back" />
+</LinearLayout>
